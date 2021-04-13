@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Carrito">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/mole" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="mole mexicano"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:lineSpacingExtra="2dp"
+        android:text="El Mole MEXICANO se caracteriza por sus sabores y en la taqueria UDB con nuestra receta secreta te sorprenderas de nuestro plato."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/ic_group_400" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="24dp"
+        android:text="02"
+        android:textColor="#272670"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/ic_group_401" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/add_to_cart_bg"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Ir a pagar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="88dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="37dp"
+        android:text="$ 47.00"
+        android:textColor="#272670"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
