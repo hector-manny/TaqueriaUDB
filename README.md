@@ -4,4 +4,5 @@
 # Antes que nada 
 * Debes de pedir acceso al Docker container de amazon en el cual se aloja la base de datos. 
 * Tambien tienes que tener las herramientas necesarias para contribuir a este proyecto.
-* 
+* Tambien tienes que pedir el acceso a Firebase el cual es para pedir el key de la autenticacion por Google y Facebook
+# 
