@@ -14,8 +14,16 @@
 # Requisitos para Contribuir
 * Android Studio
 * Git 
+# 
+# Como contribuir 
+* Se debe de hacer un git clone de este repositorio en una carpeta donde quiera realizar la contribución o sino descargar el proyecto en el archivo .zip 
+* Debe de pedir el acceso a la base de datos en un Issues
+* Debe de pedir el acceso a Firebase en un Issues
+* Se tiene que configurar Firebase en Android Studio
+* Para cualquier duda se tiene que hacer en un Issues de este repositorio
+# 
 # Herramientas utilizadas 
-* Docker file 
+* Docker
 * S3 amazon
 * Android Studio
 * Firebase
