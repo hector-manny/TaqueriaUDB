@@ -14,6 +14,8 @@
 # Requisitos para Contribuir
 * Android Studio
 * Git 
+* Cuenta de Gmail
+* Acceso a AWS
 # 
 # Como contribuir 
 * Se debe de hacer un git clone de este repositorio en una carpeta donde quiera realizar la contribución o sino descargar el proyecto en el archivo .zip 
